@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nordbygg Solution SE</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    header { background: #004080; color: white; padding: 20px; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 40px; background: white; margin: 20px; border-radius: 8px; }
+    footer { text-align: center; padding: 20px; background: #ddd; color: #333; }
+    .logo { max-width: 150px; margin-bottom: 10px; }
+    .contact-form input, .contact-form textarea {
+      width: 100%; padding: 10px; margin-top: 10px; border-radius: 5px; border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Construction_icon.svg/1200px-Construction_icon.svg.png" alt="Logo" class="logo">
+    <h1>Nordbygg Solution SE</h1>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#projects">Nos réalisations</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>À propos de nous</h2>
+    <p>Nordbygg Solution SE est une entreprise suédoise spécialisée dans les travaux de construction résidentielle, commerciale et industrielle. Nous combinons expertise technique et innovation durable.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Nos réalisations</h2>
+    <ul>
+      <li>Construction de 20 logements sociaux à Malmö</li>
+      <li>Rénovation de l'école élémentaire de Göteborg</li>
+      <li>Installation solaire sur bâtiments municipaux à Uppsala</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Nom complet" required>
+      <input type="email" placeholder="Adresse email" required>
+      <textarea placeholder="Votre message" rows="5" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Nordbygg Solution SE - Tous droits réservés
+  </footer>
+
+</body>
+</html>
